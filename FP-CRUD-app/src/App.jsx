@@ -183,7 +183,7 @@ return (
 <div className= "container">
 
   <div className="row g-4" id="allStudents">
-    <h1 className="collegeName shadow shadow-lg p-3">Elk Valley Community College</h1>
+    <h1 className="collegeName shadow shadow-lg p-3 fw-bold">Elk Valley Community College</h1>
     <h3 className="currentStudentHeading">Current Students</h3>
     {searchResults && searchResults.map((student) =>
 ( 
@@ -201,7 +201,7 @@ return (
     <h3>Student Search </h3>
     <div className="col-md-4">
       <label htmlFor="textKeywords">Search by First Name or Last Name</label>
-      <input type="text" className="form-control" placeholder='Cami Carstens' onChange={evt => setKeyWords(evt.currentTarget.value)} value={keyWords} />
+      <input type="text" className="form-control" placeholder='John Smith' onChange={evt => setKeyWords(evt.currentTarget.value)} value={keyWords} />
     </div>
     <div className="col-md-4 pt-4">
       <select value={gradYear} onChange={evt => setGradYear(evt.currentTarget.value)} className='form-select'>

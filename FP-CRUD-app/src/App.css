@@ -1,3 +1,7 @@
+body {
+  background-image: url("images/final-project-bg.jpg");
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -46,7 +50,7 @@
     box-shadow: 5px 5px 5px 5px black;
     border: thin solid black;
     padding: 5em;
-    background-color: rgb(244, 244, 244);
+   background-color: rgb(247, 239, 226);
 }
 .currentStudentHeading {
   text-shadow: 6px 6px 6px white;

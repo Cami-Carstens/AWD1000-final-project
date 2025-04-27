@@ -54,7 +54,7 @@ return (
 
 
         <div className='col-md-2'>
-        <button type="button" id="btnAdd" className="btn btn-sm btn-success mt-3 m-5" onClick={doWork}>Add Student <FontAwesomeIcon icon={faPlusCircle} /></button>
+        <button type="button" id="btnAdd" className="btn btn-secondary w-75 mt-3 m-5" onClick={doWork}>Add Student <FontAwesomeIcon icon={faPlusCircle} /></button>
 
 
         </div>
